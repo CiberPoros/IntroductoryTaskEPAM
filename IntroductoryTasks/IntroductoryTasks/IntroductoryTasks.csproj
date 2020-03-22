@@ -46,13 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinarySearchUtil.cs" />
-    <Compile Include="BracketSequenceUtil.cs" />
-    <Compile Include="FactorialUtil.cs" />
+    <Compile Include="InputHandlers\BinarySearchHandler.cs" />
+    <Compile Include="InputHandlers\BracketSequenceHandler.cs" />
+    <Compile Include="InputHandlers\FactorialHandler.cs" />
+    <Compile Include="InputHandlers\InputHandler.cs" />
+    <Compile Include="InputHandlers\ModeHandler.cs" />
+    <Compile Include="InputHandlers\SingleWordsSearchHandler.cs" />
+    <Compile Include="InputHandlers\SortHandler.cs" />
+    <Compile Include="Utils\BinarySearchUtil.cs" />
+    <Compile Include="Utils\BracketSequenceUtil.cs" />
+    <Compile Include="Utils\FactorialUtil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SingleWordsSearchUtil.cs" />
-    <Compile Include="SortUtil.cs" />
+    <Compile Include="Utils\SingleWordsSearchUtil.cs" />
+    <Compile Include="Utils\SortUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
