@@ -54,7 +54,7 @@
             OutData($"\"{ _singleWordsSearchKey }\" for get single words from string;");
             OutData($"\"{ _factorialKey }\" for get factorial of integer;");
             OutData($"\"{ _bracketSequenceKey }\" for check validity of bracket sequence;");
-            OutData($"\"{ _quitKey }\" for quit;");
+            OutData($"\"{ _quitKey }\" for exit;");
             OutData("");
             OutData("Enter command:");
         }
