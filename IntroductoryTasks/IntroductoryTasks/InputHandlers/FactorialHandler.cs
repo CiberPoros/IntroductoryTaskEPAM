@@ -20,9 +20,9 @@ namespace IntroductoryTasks.InputHandlers
             {
                 OutData(FactorialUtil.GetBigIntFactorial(inputValue));
             }
-            catch (ArgumentOutOfRangeException e)
+            catch (ArgumentOutOfRangeException)
             {
-                OutData(e.Message);
+                OutData("Value must not be negative.");
             }
 
             return false;
