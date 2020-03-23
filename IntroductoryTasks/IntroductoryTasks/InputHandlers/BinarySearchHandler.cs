@@ -59,8 +59,8 @@ namespace IntroductoryTasks.InputHandlers
                     return;
 
                 var result = BinarySearchUtil.BinarySearch(list, (int)key);
-                OutData($"Result is index of desired value or bit addition of first large (or bit addition of Count if first large not exists).");
-                OutData($"Result: { result }");
+                string isExists = result >= 0 ? "exists; index = " : "not exists; index of bit addition of first large (Count if first large not exists) = ";
+                OutData($"Result: { isExists }{ result }");
             }
         }
 

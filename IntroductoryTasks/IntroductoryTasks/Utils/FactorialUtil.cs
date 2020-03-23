@@ -23,7 +23,7 @@ namespace IntroductoryTasks.Utils
                 throw new ArgumentOutOfRangeException("value", "Value can't be negative.");
 
             BigInteger res = 1;
-            for (int i = 2; i < value; i++)
+            for (int i = 2; i <= value; i++)
                 res *= i;
 
             return res;

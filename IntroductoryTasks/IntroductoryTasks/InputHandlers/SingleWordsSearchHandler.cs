@@ -11,7 +11,7 @@ namespace IntroductoryTasks.InputHandlers
 
             string inputString = Input;
             var separators = ReadSeparators();
-            var result = SingleWordsSearchUtil.GetSingleWords(inputString, separators);
+            var result = SingleWordsSearchUtil.GetSingleWords(inputString, separators + " ");
 
             OutData("Result:");
             OutData(result, " ");
@@ -20,7 +20,7 @@ namespace IntroductoryTasks.InputHandlers
 
         private string ReadSeparators()
         {
-            OutData("Enter string with separator symbols:");
+            OutData("Enter string with separator symbols (space added by default):");
             ReadData();
             return Input;
         }

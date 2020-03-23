@@ -25,6 +25,9 @@ namespace IntroductoryTasks.Utils
                     stack.Push(c);
                 else 
                 {
+                    if (stack.Count <= 0)
+                        return false;
+
                     if (closeToOpenBracketMap.ContainsKey(c))
                     {
                         if (closeToOpenBracketMap[c] != (stack.Pop()))
